@@ -1,0 +1,40 @@
+@media screen and (max-width: 800px) {
+  body {
+    background-position: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .clock span {
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+  }
+}
+/* extra small devises Phone */
+@media screen and (max-width: 480px) {
+  body {
+    background-size: 100%;
+    background-position: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  .clock #ampm {
+    position: absolute;
+    margin: -40px -330px;
+  }
+}
+/* small devises Phone */
+@media screen and (max-width: 320px) {
+  body {
+    background-size: 100%;
+    background-position: 100%;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  .clock #ampm {
+    position: absolute;
+    margin: -40px -330px;
+  }
+}
