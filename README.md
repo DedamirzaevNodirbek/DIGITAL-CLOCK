@@ -1,1 +1,1 @@
-# DIGITAL-CLOCK.github.io
+# Dgital-clock.github.io
